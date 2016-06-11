@@ -1,9 +1,1 @@
-This is a lib for C users that would like to get the convinient
-of C++, mainly containing the STL-like data structure and algo_
-rithm.
-
-cstl directory contains the header files. The files that begin
-with "c" is only convinient for user to include in the project.
-For example, you can use vector by including cvector instead of
-including cstl_vector.h, cstl_vector_private.h and cstl_vector_
-iterator.h and more.
+This is a lib for C users that would like to get the convinientof C++, mainly containing the STL-like data structure and algorithm. Fork from cstl，modified by DcBean.
