@@ -11,6 +11,7 @@
 *.ipch
 
 *.opensdf
+Debug/
 
 # Libraries
 *.lib
