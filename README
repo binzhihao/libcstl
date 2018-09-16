@@ -1,1 +1,3 @@
-This is a lib for C users that would like to get the convinientof C++, mainly containing the STL-like data structure and algorithm. Fork from cstl，modified by DcBean.
+This is a lib for C users that would like to get the convinientof C++, mainly containing the STL-like data structure and algorithm. Fork from libcstl.
+
+For Linux users, just apply CMake under src directory to build .a lib (or modify slightly for .so). For Windows users, build it with Visual Studio under build-win.
