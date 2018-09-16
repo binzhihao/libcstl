@@ -13,6 +13,7 @@
 
 # build
 Debug/
+build/
 .vscode/
 
 # Cmake
@@ -38,3 +39,4 @@ Makefile
 
 # test files
 test/
+test_main.c
