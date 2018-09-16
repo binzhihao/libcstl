@@ -9,9 +9,17 @@
 *.tlog
 *.lastbuildstate
 *.ipch
-
 *.opensdf
+
+# build
 Debug/
+.vscode/
+
+# Cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
 # Libraries
 *.lib

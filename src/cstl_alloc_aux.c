@@ -52,7 +52,6 @@ void* _alloc_malloc_out_of_memory(size_t t_memsize)
             exit(EXIT_FAILURE);
             return NULL;
         } else {
-			//bean：先执行一些处理
             (*_gpfun_malloc_handler)();
             if ((pv_allocmem = malloc(t_memsize)) != NULL) {
                 return pv_allocmem;

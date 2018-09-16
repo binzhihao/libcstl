@@ -245,7 +245,7 @@ void _type_get_type_pair(_typeinfo_t* pt_typeinfofirst, _typeinfo_t* pt_typeinfo
     }
 }
 
-static bool_t _type_cstl_builtin_special(const char* s_typename)
+static inline bool_t _type_cstl_builtin_special(const char* s_typename)
 {
     /*
      * Judging the special cstl-builtin type.

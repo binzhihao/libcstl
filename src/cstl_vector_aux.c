@@ -30,10 +30,7 @@
 #include "cstl_vector_aux.h"
 
 /** local constant declaration and local macro section **/
-/* bean: capacity threshold size.
- *if the growsize is smaller than this, apply the number to the growsize 
- */
-#define _VECTOR_CAPACITY_THRESHOLD_SIZE     16
+#define _VECTOR_CAPACITY_THRESHOLD_SIZE     16 /* capacity threshold size */
 
 /** local data type declaration and local struct, union, enum section **/
 
