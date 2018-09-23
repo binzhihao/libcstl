@@ -34,6 +34,7 @@
 /** local global variable definition section **/
 
 /** exported function implementation section **/
+
 /**
  * Create string container.
  */

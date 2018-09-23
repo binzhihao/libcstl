@@ -220,6 +220,7 @@ basic_string_t* _create_basic_string(const char* s_typename)
         return NULL;
     }
 
+    /* 辅助函数，主要的作用是做类型校验 */
     if (!_create_basic_string_auxiliary(pt_basic_string, s_typename)) {
         free(pt_basic_string);
         return NULL;
