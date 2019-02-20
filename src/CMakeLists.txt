@@ -1,6 +1,7 @@
-#使用Cmake Tools插件
-#include(CMakeToolsHelpers OPTIANAL)
+# 使用Cmake Tools插件
+# include(CMakeToolsHelpers OPTIANAL)
 
+# 最低版本
 cmake_minimum_required(VERSION 2.8)
 
 #include头文件目录

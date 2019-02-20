@@ -1,7 +1,3 @@
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 #include <stdio.h>
 #include <cstl/cvector.h>
 
@@ -17,9 +13,7 @@ int main(int argc, char const *argv[])
         printf("%d\n", *(int *)iterator_get_pointer(iter));
     }
 
+    printf("finish\n");
+
     return 0;
 }
-
-#ifdef __cplusplus
-}
-#endif

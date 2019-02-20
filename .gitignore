@@ -14,6 +14,8 @@
 # build
 Debug/
 build/
+cmake-build-debug-remote-host/
+cmake-build-debug/
 .vscode/
 
 # Cmake
@@ -37,6 +39,3 @@ Makefile
 *.out
 *.app
 
-# test files
-test/
-test_main.c
